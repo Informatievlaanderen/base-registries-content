@@ -125,6 +125,9 @@
     }
   },
   "information": {
+    "redirect": {
+      "url": "/"
+    },
     "spotlightItems": [
       {
         "title": "Gemeenten",

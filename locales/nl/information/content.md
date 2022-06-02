@@ -4,6 +4,8 @@ Ter verbetering van haar beleidsvoering en dienstverlening trekt de Vlaamse over
 
 [<span class="vl-icon vl-vi vl-vi-arrow-right-fat vl-link__icon vl-link__icon--before"/>Lees verder][1]
 
+[<span class="vl-icon vl-vi vl-vi-arrow-right-fat vl-link__icon vl-link__icon--before"/>Lees verder][1]
+
 ## Aanleiding voor de basisregisters {#aanleiding}
 Informatie is zeer omvangrijk, maar ook zeer versnipperd. De basisregisters moeten zorgen voor een efficiëntere doorstroming van informatie naar alle betrokken partijen.
 
