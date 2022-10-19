@@ -72,11 +72,7 @@
       {
         "title": "Documentatie",
         "subtitle": "",
-        "url": {
-          "dev": "https://docs.basisregisters.dev-vlaanderen.be/docs/api-documentation.html#tag/api-documentation.html",
-          "stg": "https://docs.basisregisters.staging-vlaanderen.be/docs/api-documentation.html#tag/api-documentation.html",
-          "prd": "https://docs.basisregisters.vlaanderen.be/docs/api-documentation.html#tag/api-documentation.html"
-        }
+        "url": "/functionaldocumentation"
       },
       {
         "title": "Implementatiemodel",
