@@ -91,6 +91,16 @@
       }
     ]
   },
+  "functionaldocumentation": {
+    "title": "Documentatie",
+    "Prefix": "Basisregisters Vlaanderen",
+    "doormatItems": [
+      {
+        "title": "Edit endpoints GRAR",
+        "url": "/functioneledocumentatie/editendpointsgrar"
+      }
+    ]
+  },
   "implementationmodel": {
     "title": "Implementatiemodel",
     "Prefix": "Basisregisters Vlaanderen",
