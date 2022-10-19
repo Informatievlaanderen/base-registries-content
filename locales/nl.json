@@ -6,9 +6,13 @@
       "text": "Overzicht",
       "url": "/"
     },
+    "functionaldocumentation": {
+      "text": "Documentatie",
+      "url": "/"
+    },
     "implementationmodel": {
       "text": "Implementatiemodel",
-      "url": "/implementatiemodel"
+      "url": "/functioneledocumentatie"
     },
     "informatie": {
       "text": "Informatie",
