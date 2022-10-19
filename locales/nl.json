@@ -101,6 +101,10 @@
       }
     ]
   },
+  "editendpointsgrar": {
+    "title": "Edit endpoints GRAR",
+    "Prefix": "Basisregisters Vlaanderen"
+  },
   "implementationmodel": {
     "title": "Implementatiemodel",
     "Prefix": "Basisregisters Vlaanderen",
