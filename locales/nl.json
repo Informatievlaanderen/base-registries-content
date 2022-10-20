@@ -62,7 +62,7 @@
     "spotlightItems": [
       {
         "title": "API Documentatie",
-        "subtitle": "Hoe gebruik ik de API's? Leer het hier.",
+        "subtitle": "Hoe werken de API's technisch? Leer het hier.",
         "url": {
           "dev": "https://docs.basisregisters.dev-vlaanderen.be/docs/api-documentation.html#tag/api-documentation.html",
           "stg": "https://docs.basisregisters.staging-vlaanderen.be/docs/api-documentation.html#tag/api-documentation.html",
@@ -70,6 +70,11 @@
         }
       },
       {
+        "title": "Documentatie",
+        "subtitle": "Hoe werken de API's functioneel? Leer het hier",
+        "url": "/documentatie"
+      },
+            {
         "title": "Implementatiemodel",
         "subtitle": "De specificatie voor gegevensuitwisseling",
         "url": "/implementatiemodel"
