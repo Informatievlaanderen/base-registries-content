@@ -6,9 +6,9 @@
       "text": "Overzicht",
       "url": "/"
     },
-    "functionaldocumentation": {
+    "documentation": {
       "text": "Documentatie",
-      "url": "/functioneledocumentatie"
+      "url": "/documentatie"
     },
     "implementationmodel": {
       "text": "Implementatiemodel",
@@ -76,7 +76,7 @@
       {
         "title": "Documentatie",
         "subtitle": "",
-        "url": "/functioneledocumentatie"
+        "url": "/documentatie"
       },
       {
         "title": "Implementatiemodel",
@@ -95,13 +95,13 @@
       }
     ]
   },
-  "functionaldocumentation": {
+  "documentation": {
     "title": "Documentatie",
     "Prefix": "Basisregisters Vlaanderen",
     "doormatItems": [
       {
         "title": "Edit endpoints GRAR",
-        "url": "/functioneledocumentatie/editendpointsgrar"
+        "url": "/documentatie/editendpointsgrar"
       }
     ]
   },
