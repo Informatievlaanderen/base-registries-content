@@ -61,13 +61,18 @@
     "Prefix": "Basisregisters Vlaanderen",
     "spotlightItems": [
       {
-        "title": "Documentatie",
-        "subtitle": "Hoe gebruik ik de API's? Leer het hier.",
+        "title": "API Documentatie",
+        "subtitle": "Hoe werken de API's technisch? Leer het hier.",
         "url": {
           "dev": "https://docs.basisregisters.dev-vlaanderen.be/docs/api-documentation.html#tag/api-documentation.html",
           "stg": "https://docs.basisregisters.staging-vlaanderen.be/docs/api-documentation.html#tag/api-documentation.html",
           "prd": "https://docs.basisregisters.vlaanderen.be/docs/api-documentation.html#tag/api-documentation.html"
         }
+      },
+      {
+        "title": "Documentatie",
+        "subtitle": "Hoe werken de API's functioneel? Leer het hier",
+        "url": "/documentatie"
       },
       {
         "title": "Implementatiemodel",
