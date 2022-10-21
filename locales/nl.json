@@ -91,18 +91,6 @@
       }
     ]
   },
-    "documentatie": {
-    "title": "Documentatie",
-    "Prefix": "Basisregisters Vlaanderen",
-    "doormatItems": [
-      {
-        "title": "Gebruik van de edit API's",
-        "url": "/documentatie/editendpointsgrar"
-      },
-      }
-    ],
-  },
-  
   "implementationmodel": {
     "title": "Implementatiemodel",
     "Prefix": "Basisregisters Vlaanderen",
