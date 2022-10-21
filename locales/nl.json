@@ -18,6 +18,10 @@
       "text": "Basisregisters Vlaanderen",
       "url": "/informatie"
     }
+     "documentatie": {
+      "text": "Documentatie",
+      "url": "/documentatie"
+    }
   },
   "header": {
     "company": {
