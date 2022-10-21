@@ -18,7 +18,7 @@
       "text": "Basisregisters Vlaanderen",
       "url": "/informatie"
     }
-     "documentatie": {
+     "documentation": {
       "text": "Documentatie",
       "url": "/documentatie"
     }
@@ -95,6 +95,21 @@
       }
     ]
   },
+  "documentation": {
+    "title": "Documentatie",
+    "Prefix": "Basisregisters Vlaanderen",
+    "doormatItems": [
+      {
+        "title": "Edit endpoints gebouwen-en adressenregister",
+        "url": "/documentatie/editendpointsgrar"
+      }
+    ]
+  },
+  "editendpointsgrar": {
+    "title": "Gebruik van de edit API's van gebouwen- en adressenregister",
+    "Prefix": "Basisregisters Vlaanderen"
+  },
+
   "implementationmodel": {
     "title": "Implementatiemodel",
     "Prefix": "Basisregisters Vlaanderen",
