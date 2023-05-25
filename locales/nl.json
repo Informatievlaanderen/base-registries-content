@@ -25,6 +25,10 @@
     "registries": {
       "text": "Basisregisters Vlaanderen",
       "url": "/informatie"
+    },
+    "products": {
+      "text": "Producten",
+      "url": "/producten"
     }
   },
   "header": {
