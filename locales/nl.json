@@ -31,9 +31,9 @@
       "url": "/producten"
     },
     "integrationDocumentation": {
-      "text": "Integratie Documentatie",
-      "url": "/integratie-documentatie"
-    }
+     "text": "Technische integraties met de basisregisters",
+     "url": "/integratie-documentatie"
+   }
   },
   "header": {
     "company": {
