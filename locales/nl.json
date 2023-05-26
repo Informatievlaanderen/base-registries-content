@@ -29,6 +29,10 @@
     "products": {
       "text": "Producten",
       "url": "/producten"
+    },
+    "integrationDocumentation": {
+      "text": "Integratie Documentatie",
+      "url": "/integratie-documentatie"
     }
   },
   "header": {
