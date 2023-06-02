@@ -33,6 +33,10 @@
     "integrationDocumentation": {
      "text": "Technische integraties met de basisregisters",
      "url": "/integratie-documentatie"
+   },
+   "error": {
+     "text": "Foutmeldingen",
+     "url": "/foutmeldingen"
    }
   },
   "header": {
