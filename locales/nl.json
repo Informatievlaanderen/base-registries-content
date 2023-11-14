@@ -785,9 +785,9 @@
         "projections": true,
         "feed": true,
         "cache": true,
-        "import": true,
+        "import": false,
         "syndication": false,
-        "producer": false,
+        "producer": true,
         "consumer": false,
         "importerGrb": false
       },
@@ -798,7 +798,7 @@
         "cache": true,
         "import": false,
         "syndication": true,
-        "producer": false,
+        "producer": true,
         "consumer": false,
         "importerGrb": false
       },
@@ -807,10 +807,10 @@
         "projections": true,
         "feed": true,
         "cache": true,
-        "import": true,
+        "import": false,
         "syndication": true,
-        "producer": false,
-        "consumer": false,
+        "producer": true,
+        "consumer": true,
         "importerGrb": false
       },
       "address": {
@@ -818,21 +818,21 @@
         "projections": true,
         "feed": true,
         "cache": true,
-        "import": true,
+        "import": false,
         "syndication": true,
-        "producer": false,
-        "consumer": false,
+        "producer": true,
+        "consumer": true,
         "importerGrb": false
       },
       "building": {
         "title": "Gebouwen & gebouweenheden",
         "projections": true,
         "feed": true,
-        "cache": false,
-        "import": true,
-        "syndication": true,
-        "producer": false,
-        "consumer": false,
+        "cache": true,
+        "import": false,
+        "syndication": false,
+        "producer": true,
+        "consumer": true,
         "importerGrb": false
       },
       "parcel": {
@@ -840,11 +840,11 @@
         "projections": true,
         "feed": true,
         "cache": true,
-        "import": true,
-        "syndication": true,
-        "producer": false,
-        "consumer": false,
-        "importerGrb": false
+        "import": false,
+        "syndication": false,
+        "producer": true,
+        "consumer": true,
+        "importerGrb": true
       },
       "road": {
         "title": "Wegen",
