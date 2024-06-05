@@ -3,7 +3,6 @@ Wenst u zich in te schrijven voor de releasemailing van het gebouwen- en adresse
 ### Huidige release
 [Release notes 27 mei 2024.pdf](https://github.com/user-attachments/files/15584045/Release.notes.27.mei.2024.pdf)
 
-
 ### Archief
 - [Release notes 3 april 2024.pdf](https://github.com/Informatievlaanderen/base-registries-content/files/14978967/Release.notes.3.april.2024.pdf)
 - [Release notes 5 feburari 2024.pdf](https://github.com/Informatievlaanderen/base-registries-content/files/14138275/Release.notes.5.feburari.2024.pdf)
