@@ -17,7 +17,7 @@ Iedere melding wordt aangemaakt voor een dataset. De **dataset** beschrijft het 
 
 Een melding bestaat uit één of meerdere meldingsobjecten. Het zijn de meldingsobjecten die concrete informatie omtrent de gemelde fout of onvolledigheid bevatten. Welke informatie een meldingsobject kan bevatten wordt beschreven in de **dataset**.
 
-GTMF biedt een endpoint aan waarlangs de dataset kan worden opgevraagd. De dataset voor het gebouwen- en adressenregister vindt u [hier](https://prod.api.melding.vlaanderen.be/api/v1/datasets/GRAR) terug. 
+GTMF biedt een endpoint aan waarlangs de dataset kan worden opgevraagd. De dataset voor het gebouwen- en adressenregister vindt u [hier](https://api.melding.vlaanderen.be/api/v1/datasets/GRAR) terug. 
 
 **Belangrijk: Het gebouwen- en adressenregister houdt de granulariteit tussen een melding en een meldingsobject op één meldingsobject per melding.** 
 
@@ -44,9 +44,9 @@ Op het niveau van de terugmelding kan een melder volgende meegeven:
 
 ## Dataseteigenschappen van het gebouwen- en adressenregister {#dataseteigenschappen}
 
-Bij het aanmaken van een gebouwen- en adressenregister terugmelding, dient de melder exact één meldingsobject toe te voegen. Via het meldingstype duidt de melder aan of gaat om een fout of een onvolledigheid. De lijst van meldingstypes kan u [hier](https://prod.api.melding.vlaanderen.be/api/v1/meldingstypes) terugvinden. Voor terugmelding voor het gebouwen- en adressenregister dient u steeds meldingstype Fout te gebruiken.
+Bij het aanmaken van een gebouwen- en adressenregister terugmelding, dient de melder exact één meldingsobject toe te voegen. Via het meldingstype duidt de melder aan of gaat om een fout of een onvolledigheid. De lijst van meldingstypes kan u [hier](https://api.melding.vlaanderen.be/api/v1/meldingstypes) terugvinden. Voor terugmelding voor het gebouwen- en adressenregister dient u steeds meldingstype Fout te gebruiken.
 
-De dataseteigenschappen beschreven in de gebouwen- en adressenregister dataset vindt u hieronder terug. De volledige datasetbeschrijving voor het gebouwen- en adressenregister vindt u [hier](https://prod.api.melding.vlaanderen.be/api/v1/datasets/GRAR) terug.
+De dataseteigenschappen beschreven in de gebouwen- en adressenregister dataset vindt u hieronder terug. De volledige datasetbeschrijving voor het gebouwen- en adressenregister vindt u [hier](https://api.melding.vlaanderen.be/api/v1/datasets/GRAR) terug.
 
 ### Oorzaak
 - Dit is **verplicht**.
@@ -117,14 +117,14 @@ De status van de melding wordt afgeleid van de statussen van de meldingsobjecten
 #### Ophalen van de lijst van terugmeldingen:
 |Omgeving|URL|
 |:---:|:---:|
-|Bèta | https://beta.api.melding.dev-vlaanderen.be/api/v2/meldingen/ |
-|Productie |https://prod.api.melding.vlaanderen.be/api/v2/meldingen/  |
+|Staging | https://api.melding.staging-vlaanderen.be/api/v2/meldingen/ |
+|Productie |https://api.melding.vlaanderen.be/api/v2/meldingen/  |
 
 #### Ophalen van het detail van een terugmelding:
 |Omgeving|URL|
 |:---:|:---:|
-|Bèta | https://beta.api.melding.dev-vlaanderen.be/api/v2/meldingen/{id} |
-|Productie |https://prod.api.melding.vlaanderen.be/api/v2/meldingen/{id}  |
+|Staging | https://api.melding.staging-vlaanderen.be/api/v2/meldingen/{id} |
+|Productie |https://api.melding.vlaanderen.be/api/v2/meldingen/{id}  |
 
 ### Meldingen behandelen {#meldingenbehandelen}
 
@@ -172,10 +172,10 @@ Eens geauthenticeerd, zal het GTMF endpoint bepalen welke informatie u mag zien 
 Meer technische details kan u vinden op de swagger documentatie van de GTMF API:
 |Omgeving|URL|
 |:---:|:---:|
-|Bèta |  https://beta.api.melding.dev-vlaanderen.be/swagger/index.html |
-|Productie |https://prod.api.melding.vlaanderen.be/swagger/index.html |
+|Staging |  https://api.melding.staging-vlaanderen.be/swagger/index.html |
+|Productie |https://api.melding.vlaanderen.be/swagger/index.html |
 
-Een lijst van foutcodes die kunnen voorkomen in de API is [hier](https://prod.api.melding.vlaanderen.be/Documentatie/ErrorCodesPagina) te vinden.
+Een lijst van foutcodes die kunnen voorkomen in de API is [hier](https://api.melding.vlaanderen.be/Documentatie/ErrorCodesPagina) te vinden.
 
 ## Uw applicatie aansluiten {#aansluiten}
 
