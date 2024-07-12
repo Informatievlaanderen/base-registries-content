@@ -34,6 +34,10 @@
       "text": "Producten basisregisters",
       "url": "/producten"
     },
+    "apikey": {
+      "text": "API keys",
+      "url": "/apikey"
+    },
     "releaseNotes": {
     "text": "Release notes",
     "url": "/release-notes"
