@@ -26,9 +26,7 @@ Elk read endpoint is ook gedocumenteerd. Deze documentatie kan [hier](https://do
 ### Toegang
 De read endpoints zijn anoniem raadpleegbaar echter is er een beperking aanwezig op het aantal verzoeken dat u tegelijkertijd kan versturen naar deze endpoints. Wanneer u een API key meegeeft dan zal u meer requests kunnen versturen.
 
-Om dus optimaal gebruik te maken van de endpoints vraagt u best een API key aan. Dit kan door uw gegevens in volgende link achter te laten: [Vraag hier uw API key aan][10]. U kan deze API key op 2 manieren meegeven:
-* Via de header x-api-key.
-* In de URL. Bijvoorbeeld: https://api.basisregisters.vlaanderen.be/v2/adressen?apikey={apikey} waarbij {apikey} vervangen wordt door de unieke code van uw API key.
+Meer informatie omtrent API keys vind je [hier](/apikey).
 
 ### De read endpoints zijn comform aan het OSLO-model
 De v2 read endpoints zijn conform aan het OSLO-model.
@@ -37,10 +35,6 @@ De v2 read endpoints zijn conform aan het OSLO-model.
 
 Door informatie conform aan het OSLO-model te ontsluiten, kan deze vlot gecombineerd worden met datasets op het wereldwijde web. Contextuele informatie wordt aan de response van de endpoints gekoppeld waardoor ze geschikt zijn om te gebruiken in Linked Data toepassingen.
 Meer informatie over OSLO kan u hier vinden: https://overheid.vlaanderen.be/producten-diensten/oslo.
-
-**Hoe v2 endpoints visueel in browser tonen?**
-
-In de browser moet een accept header meegegeven worden bij de request. In Chrome is dit door middel van een extensie. Een voorbeeld hiervan is ‘NoRefer’. In het witte scherm dat verschijnt na het klikken op het extensie icoon moet het volgende meegegeven worden: 'accept: application/ld+json'. Daarna wordt de pagina best opnieuw geladen.
 
 ### Hoeveel objecten worden er getoond in de lijst endpoints? 
 
@@ -103,10 +97,8 @@ Hieronder staan de migratie eventid's per register. Voor de feed endpoints gemee
 In de feed endpoints kan u alle eventids terugvinden van alle aangeboden objecttypes. Echter zal u merken dat er soms eventids niet aanwezig zijn. De eventids die niet getoond worden, zijn interne events en niet beschikbaar voor de externe gebruikers. Wanneer u een eventid van een intern event meegeeft in de URL dan zal automatisch het eerstvolgende extern eventid na het meegegeven eventid in de response getoond worden.
 
 ### API key verplicht
-Om de Feeds te gebruiken is het verplicht om een API key mee te geven. Als u dit namelijk niet doet dan krijgt u een errormelding 401 als response terug. Er zijn 2 mogelijkheden om de API key mee te geven:
-* Via de header x-api-key.
-* In de URL. Bijvoorbeeld: https://api.basisregisters.vlaanderen.be/v2/feeds/adressen?apikey={apikey} waarbij {apikey} vervangen wordt door de unieke code van uw API key.
-[Hier][10] kan u een API key aanvragen.
+Om de Feeds te gebruiken is het verplicht om een API key mee te geven. Als u dit namelijk niet doet dan krijgt u een errormelding 401 als response terug.
+Meer informatie omtrent API keys vind je [hier](/apikey).
 
 ### Provenance
 In het veld Provenance staat de metadata van een event. Het bestaat uit 3 onderdelen:

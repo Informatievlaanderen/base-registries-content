@@ -12,6 +12,10 @@ U kan deze API key op 2 manieren meegeven:
 * Via de header x-api-key.
 * In de URL. Bijvoorbeeld: https://api.basisregisters.vlaanderen.be/v2/adressen?apikey={apikey} waarbij {apikey} vervangen wordt door de unieke code van uw API key.
 
+### Limieten
+
+Meer infomatie over de limieten vind u [hier](/apikey/limieten).
+
 ## Wegenregister
 
 De diensten aangeboden via het portaal van het wegenregister zijn beveiligd door middel van API keys. Indien u gebruik wilt maken van de toepassingen die het wegenregister aanbiedt via dit portaal kan u [hier][2] een API key aanvragen.
