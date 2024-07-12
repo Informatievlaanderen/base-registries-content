@@ -30,9 +30,13 @@
       "text": "Mogelijke foutmeldingen in de endpoints van de basisregisters",
       "url": "/foutmeldingen"
     },
-      "products": {
+    "products": {
       "text": "Producten basisregisters",
       "url": "/producten"
+    },
+    "apikey": {
+      "text": "API keys",
+      "url": "/apikey"
     },
    "releaseNotes": {
     "text": "Release notes",
