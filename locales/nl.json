@@ -585,7 +585,8 @@
         "producer": true,
         "consumer": false,
         "importerGrb": false,
-        "backOfficeProjections" : false
+        "backOfficeProjections" : false,
+        "snapshot": false
       },
       "postal": {
         "title": "Postinfo",
@@ -597,7 +598,8 @@
         "producer": true,
         "consumer": false,
         "importerGrb": false,
-        "backOfficeProjections": false
+        "backOfficeProjections": false,
+        "snapshot": false
       },
       "streetname": {
         "title": "Straatnamen",
@@ -609,7 +611,8 @@
         "producer": true,
         "consumer": true,
         "importerGrb": false,
-        "backOfficeProjections": true
+        "backOfficeProjections": true,
+        "snapshot": true
       },
       "address": {
         "title": "Adressen",
@@ -621,7 +624,8 @@
         "producer": true,
         "consumer": true,
         "importerGrb": false,
-        "backOfficeProjections": true
+        "backOfficeProjections": true,
+        "snapshot": true
       },
       "building": {
         "title": "Gebouwen & gebouweenheden",
@@ -633,7 +637,8 @@
         "producer": true,
         "consumer": true,
         "importerGrb": false,
-        "backOfficeProjections": true
+        "backOfficeProjections": true,
+        "snapshot": true
       },
       "parcel": {
         "title": "Percelen",
@@ -645,7 +650,8 @@
         "producer": true,
         "consumer": true,
         "importerGrb": true,
-        "backOfficeProjections": true
+        "backOfficeProjections": true,
+        "snapshot": true
       },
       "road": {
         "title": "Wegen",
@@ -657,7 +663,8 @@
         "producer": false,
         "consumer": true,
         "importerGrb": false,
-        "backOfficeProjections": false
+        "backOfficeProjections": false,
+        "snapshot": false
       }
     }
   },
