@@ -251,7 +251,7 @@ Als 3 van deze 4 criteria positief zijn, dan wordt een gebouw meestal gesplitst.
 
 Indien men beschikt over bouwplannen, dan kunnen deze meer inzicht verschaffen over de opdeling. Als uit deze plannen blijkt dat interne circulatie mogelijk is dan kan het gebouw als één gebouw afgebakend worden.
 
-Een gedetailleerde toelichting hierover vind je [hier](https://assets.vlaanderen.be/image/upload/v1678268047/Basiskaart_-_Procedure_afbakening_gebouw_bjocy0.pdf)).
+Een gedetailleerde toelichting hierover vind je [hier](https://vlaamseoverheid.sharepoint.com/sites/informatie_vlaanderen/grb/Ondersteunende%20documenten/Forms/AllItems.aspx?id=%2Fsites%2Finformatie%5Fvlaanderen%2Fgrb%2FOndersteunende%20documenten%2FProcedure%20%2D%20Afbakening%20gebouw%2FGRB%2Dprocedure%5FAfbakening%5FGebouw%5F1%2E1%2E0%2Epdf&parent=%2Fsites%2Finformatie%5Fvlaanderen%2Fgrb%2FOndersteunende%20documenten%2FProcedure%20%2D%20Afbakening%20gebouw)).
 </details>
 
 <details>
