@@ -209,19 +209,22 @@
       {
         "title": "Business release notes van het wegenregister",
         "url": "/release-notes/functioneelwr",
-        "hide": true
+        "hide": false
       }
     ]
-    },
-      "release-notes/business-grar": {
-      "title": "Functionele release notes van het gebouwen- en adressenregister"
-    },
-   "release-notes/business-wr": {
-     "title": "Functionele release notes van het wegenregister"
-    },
-   "release-notes/technisch-grar": {
-      "title": "Technische release notes van het gebouwen- en adressenregister"
-    },
+  },
+  "release-notes/business-grar": {
+    "title": "Functionele release notes van het gebouwen- en adressenregister"
+  },
+  "release-notes/business-wr": {
+    "title": "Functionele release notes van het wegenregister"
+  },
+  "release-notes/technisch-grar": {
+    "title": "Technische release notes van het gebouwen- en adressenregister"
+  },
+  "release-notes/technisch-wr": {
+    "title": "Technische release notes van het wegenregister"
+  },
   "editendpointsgrar": {
     "title": "Gebruik van de edit API's van het gebouwen- en adressenregister",
     "Prefix": "Basisregisters Vlaanderen"

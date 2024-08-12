@@ -8,3 +8,7 @@ Wenst u zich in te schrijven voor de releasemailing van het wegenregister? Schri
 ### Archief
 
 - [Productierelease 2022-11-02](https://assets.vlaanderen.be/image/upload/v1668069613/VBR-WR_Productierelease_2022-11-02-091122-122418_h0pfx1.pdf)
+
+### Technische release notes
+
+Een overzicht van de technische release notes kan [hier](/release-notes/technischwr) gevonden worden.
