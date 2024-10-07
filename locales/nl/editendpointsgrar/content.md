@@ -28,14 +28,14 @@ Hieronder kan per register een lijst gevonden worden van welke beheeracties er a
 * Stel een straatnaam voor. (Decentrale bijwerker)
 * Keur een straatnaam goed. (Decentrale bijwerker)
 * Keur een straatnaam af. (Decentrale bijwerker)
-* Hef een straatnaam op. (Decentrale bijwerker)
+* Hef een straatnaam op. (Interne bijwerker)
 * Verwijder een straatnaam. (Interne bijwerker)
 * Corrigeer de straatnaam van een straatnaam. (Decentrale bijwerker)
 * Corrigeer de homoniemtoevoeging van een straatnaam. (Interne bijwerker)
 * Corrigeer de goedkeuring van een straatnaam. (Interne bijwerker)
 * Corrigeer de afkeuring van een straatnaam. (Interne bijwerker)
 * Corrigeer de opheffing van een straatnaam. (Interne bijwerker)
-* Hernoem de straatnaam van een straatnaam. (Decentrale bijwerker)
+* Hernoem de straatnaam van een straatnaam. (Interne bijwerker)
 
 ### Adressen
 * Stel een adres voor. (Decentrale bijwerker)
