@@ -90,7 +90,7 @@ De edit endpoints van gebouwen kunnen alleen toegepast worden op gebouwen met ge
 
 ## Betekenis van de edit events en velden in de feed {#editeventsfeed}
 
-Een overzicht van alle mogelijke edit events en de betekenis van de attributen onder het blokje <event> vindt u op deze pagina: https://api.basisregisters.staging-vlaanderen.be/v1/info/events?tags=edit.
+Een overzicht van alle mogelijke edit events en de betekenis van de attributen onder het blokje <event> vindt u op deze pagina: https://api.basisregisters.vlaanderen.be/v2/info/events?tags=edit.
 
 ## Welke huisnummers & busnummers worden aanvaard voor een nieuw adres? {#regex}
 
@@ -171,11 +171,11 @@ De geometrie, positieGeometrieMethode, positieSpecificatie, adresStatus en de ge
 
 ## Validaties edit endpoint {#validatieseditendpoints}
  
-Zie https://basisregisters.staging-vlaanderen.be/documentatie/editendpointsgrar/validaties.
+Zie https://basisregisters.vlaanderen.be/documentatie/editendpointsgrar/validaties.
  
 ## Flow statussen   {#flowstatussen}
  
-Zie https://basisregisters.staging-vlaanderen.be/documentatie/statusflowgrar.
+Zie https://basisregisters.vlaanderen.be/documentatie/statusflowgrar.
  
  
  ## Ticketing service {#ticketingservice}
