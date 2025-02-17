@@ -659,7 +659,7 @@
         "feed": false,
         "cache": false,
         "import": false,
-        "syndication": true,
+        "syndication": false,
         "producer": false,
         "consumer": true,
         "importerGrb": false,
