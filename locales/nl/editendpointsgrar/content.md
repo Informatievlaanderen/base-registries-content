@@ -50,6 +50,7 @@ Hieronder kan per register een lijst gevonden worden van welke beheeracties er a
 * Corrigeer de postcode van een adres. (Decentrale bijwerker)
 * Corrigeer het huisnummer van een adres. (Decentrale bijwerker)
 * Corrigeer het busnummer van een adres. (Decentrale bijwerker)
+* Corrigeer de busnummers van adressen. (Decentrale bijwerker)
 * Corrigeer de goedkeuring van een adres. (Decentrale bijwerker)
 * Corrigeer de afkeuring van een adres. (Decentrale bijwerker)
 * Corrigeer de opheffing van een adres. (Decentrale bijwerker)
