@@ -328,6 +328,24 @@
 |Adres in straatnaam met status afgekeurd/gehistoreerd|Ticketing error|AdresStraatnaamVoorgesteldOfInGebruik| Deze actie is enkel toegestaan binnen straatnamen met  status 'voorgesteld' of 'inGebruik'. |
 |Verwijderd adresId meegegeven |Ticketing error |VerwijderdAdres  |Verwijderd adres.  | 
 
+#### Corrigeer de busnummers van adressen
+
+|Validatie|Soort error|ErrorCode|ErrorMessage|
+|:---:|:---:|:---:|:---:|
+|Ongeldig adresId meegegeven   |Error 400  |/ |De waarde 'adresId' is ongeldig.  |
+|Het veld busnummer niet of leeg meegegeven |Error 400  |JsonInvalid |Json is not valid. |
+|Lege busnummers lijst meegegeven |Error 400 |BusnummersLijstLeeg | De lijst van busnummers mag niet leeg zijn.|
+|Duplicaat adresid's in lijst busnummers |Error 400 |AdresIdReedsInLijstBusnummers |Het adres '<adresId>' zit reeds in lijst van busnummers. |
+|Duplicaat busnummer in lijst busnummers |Error 400 |BusnummerReedsInLijstBusnummers |Het busnummer '<busnummer>' zit reeds in lijst van busnummers. |
+|Busnummer voldoet niet aan regex busnummer |Error 400  |AdresOngeldigBusnummerformaat |Ongeldig busnummerformaat: <busnummer>. |
+|Onbestaand adresId meegegeven  |Error 400 |AdresIdIsOnbestaand  |Onbestaand adres '<adresId>'. |
+|Status adresId afgekeurd/gehistoreerd|Ticketing error|AdresIdGehistoreerdOfAfgekeurd| Deze actie is enkel toegestaan op adressen met status 'voorgesteld' of 'inGebruik': <adresId>. |   
+|Wanneer het busnummer al bestaat|Ticketing error |AdresBestaandeHuisnummerBusnummerCombinatie  | Het huisnummer '<huisnummer>' in combinatie met busnummer '<busnummer>' bestaat reeds voor de opgegeven straatnaam. |  
+|Het adres mag geen huisnummer zijn.|Ticketing error |AdresIdHuisnummerZonderBusnummer  |Het adres '<adresId>' heeft geen te corrigeren busnummer. |   
+|Adres in straatnaam met status afgekeurd/gehistoreerd|Ticketing error|AdresStraatnaamVoorgesteldOfInGebruik| Deze actie is enkel toegestaan binnen straatnamen met  status 'voorgesteld' of 'inGebruik'. |
+|Busnummers over verschillende huisnummers gewijzigd |Ticketing error |VerschillendeHuisnummersNietToegestaanInLijstBusnummers | Lijst bevat verschillende huisnummers.|
+|Verwijderd adresId meegegeven |Ticketing error |VerwijderdAdresId |Verwijderd adres '<adresId>'. | 
+
 ## Gebouwen {#gebouwen}
 
 #### Plan een gebouw in 
