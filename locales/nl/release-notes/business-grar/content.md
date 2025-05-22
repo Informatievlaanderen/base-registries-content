@@ -1,10 +1,16 @@
 Wenst u zich in te schrijven voor de releasemailing van het gebouwen- en adressenregister? Schrijf u dan [hier](https://analytics-eu.clickdimensions.com/cn/aqwrf/InReleaseGRAR) in. U kan er ook voor kiezen enkel de algemene communicatie van het gebouwen- en adressenregister te ontvangen. Als u dit wilt, schrijf u dan [hier](https://analytics-eu.clickdimensions.com/cn/aqwrf/InMailingsGRAR) in.
 
+### Technische release notes
+Een overzicht van de technische release notes kan [hier](https://basisregisters.vlaanderen.be/release-notes/technischgrar) gevonden worden.
+
 
 ### Huidige release
-[Release notes 28 oktober 2024.pdf](https://github.com/user-attachments/files/17553598/Release.notes.28.oktober.2024.pdf)
+[Release notes 14 mei 2025.pdf](https://github.com/user-attachments/files/20383318/Release.notes.14.mei.2025.pdf)
 
 ### Archief
+- [Release notes 16 december 2024.pdf](https://github.com/user-attachments/files/20383316/Release.notes.16.december.2024.pdf)
+- [Release notes 12 november 2024.pdf](https://github.com/user-attachments/files/20383310/Release.notes.12.november.2024.pdf)
+- [Release notes 28 oktober 2024.pdf](https://github.com/user-attachments/files/17553598/Release.notes.28.oktober.2024.pdf)
 - [Release notes 27 mei 2024.pdf](https://github.com/user-attachments/files/15584045/Release.notes.27.mei.2024.pdf)
 - [Release notes 3 april 2024.pdf](https://github.com/Informatievlaanderen/base-registries-content/files/14978967/Release.notes.3.april.2024.pdf)
 - [Release notes 5 feburari 2024.pdf](https://github.com/Informatievlaanderen/base-registries-content/files/14138275/Release.notes.5.feburari.2024.pdf)
@@ -63,6 +69,4 @@ Wenst u zich in te schrijven voor de releasemailing van het gebouwen- en adresse
 - [Release notes 0.2 bèta](https://assets.vlaanderen.be/image/upload/v1677831846/Release_Notes_Gebouwenregister_-_Beta-0-2_u5bvhe.pdf)
 - [Release notes 0.1 bèta](https://assets.vlaanderen.be/image/upload/v1677831725/Release_Notes_Gebouwenregister_-_Beta-0-1_mryuen.pdf)
 
-### Technische release notes
 
-Een overzicht van de technische release notes kan [hier](https://basisregisters.vlaanderen.be/release-notes/technischgrar) gevonden worden.
