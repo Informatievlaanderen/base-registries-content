@@ -3,7 +3,7 @@ Wenst u zich in te schrijven voor de releasemailing van het wegenregister? Schri
 
 ### Huidige release
 
-[VBR-WR Productierelease 2025-05-12.pdf](https://github.com/user-attachments/files/20478342/VBR-WR.Productierelease.2025-05-12-280525-081201.pdf)
+- [Productierelease 2025-05-12.pdf](https://github.com/user-attachments/files/20478342/VBR-WR.Productierelease.2025-05-12-280525-081201.pdf)
 
 
 
