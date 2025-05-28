@@ -16,3 +16,7 @@ Wenst u zich in te schrijven voor de releasemailing van het wegenregister? Schri
 - [Productierelease 2023-03-24](https://github.com/user-attachments/files/20478335/VBR-WR.Productierelease.2023-03-24-280525-081321.pdf)
 - [Productierelease 2022-08-30](https://assets.vlaanderen.be/image/upload/v1668069615/VBR-WR_Productierelease_2022-08-30-091122-121809_o0xiej.pdf)
 - [Productierelease 2022-11-02](https://assets.vlaanderen.be/image/upload/v1668069613/VBR-WR_Productierelease_2022-11-02-091122-122418_h0pfx1.pdf)
+
+### Technische release notes
+
+Een overzicht van de technische release notes kan [hier](/release-notes/technischwr) gevonden worden.
