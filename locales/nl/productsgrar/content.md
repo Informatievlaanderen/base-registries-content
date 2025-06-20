@@ -165,6 +165,218 @@ Om aan de slag te gaan met de feed endpoints van het gebouwen- en adressenregist
 ### Bestanden crabHuisnummer & crabSubadres
 In het downloadbestand zijn er ook 2 bestanden te vinden die de mapping maken tussen CRAB & het gebouwen- en adressenregister, namelijk crabHuisnummer.dbf & crabSubadres.dbf. De adres objectid's die in het gebouwen- en adressenregister gebruikt worden zijn andere objectId's dan in het CRAB. Omdat er moet worden overgeschakeld van CRAB naar het gebouwen- en adressenregister, werden deze bestanden voorzien zodat er vlot kan overgeschakeld worden. De laatste versie van deze CRAB objectId's zal nog worden bijwerkt tot en met 1 november 2023. Deze bestanden zullen nog bijgehouden worden na 1 november 2022, maar zullen geen updates meer kennen. Vanaf 1 maart 2024 worden deze bestanden uit het downloadbestand gehaald. 
 
+### Automatisering download bestand
+Via de download toepassing kan ook automatisch ons product gedownload worden.
+Volledige details vind je [hier](https://www.vlaanderen.be/digitaal-vlaanderen/onze-diensten-en-platformen/downloadtoepassing/download-api-v2), waar je ook een api-key kunt aanvragen.
+
+Hieronder vind je een voorbeeld in python hoe je het kunt gebruiken. We gebruiken hier bearer token, maar je kunt ook een `x-api-key` header meegeven ipv een `Authorization` header.
+<details>
+  <summary><strong>Example</strong></summary>
+
+```python
+import requests
+import json
+import time
+import os
+
+# Constants
+API_URL = "https://download.api.vlaanderen.be/v2/orders"
+BEARER_TOKEN = "Bearer XXX"
+POLLING_INTERVAL = 5  # Seconds between status checks
+DOWNLOAD_FOLDER = "downloads"  # Folder to save downloaded files
+
+def create_order(json_body):
+    """
+    Make a POST request to the download API with the specified JSON body.
+
+    Args:
+        json_body (dict): The JSON payload for the request
+
+    Returns:
+        dict: The response from the API, parsed from JSON
+    """
+    headers = {
+        "Authorization": BEARER_TOKEN,
+        "Content-Type": "application/json",
+        "User-Agent": "Mozilla/5.0" # It's needed for some reason
+    }
+
+    try:
+        response = requests.post(API_URL, json=json_body, headers=headers)
+        response.raise_for_status()  # Raise an exception for HTTP errors
+        return response.json()
+    except requests.exceptions.RequestException as e:
+        print(f"Error making API request: {e}")
+        if hasattr(e, 'response') and e.response:
+            print(f"Response status code: {e.response.status_code}")
+            print(f"Response content: {e.response.text}")
+        return None
+
+def check_order_status(order_id):
+    """
+    Poll the status endpoint for a specific order ID.
+
+    Args:
+        order_id: The ID of the order to check
+
+    Returns:
+        str: The current status of the order
+    """
+    status_url = f"{API_URL}/{order_id}/status"
+    headers = {
+        "Authorization": BEARER_TOKEN,
+        "User-Agent": "Mozilla/5.0" # It's needed for some reason
+    }
+
+    try:
+        response = requests.get(status_url, headers=headers)
+        response.raise_for_status()
+        status_data = response.json()
+        return status_data.get("status")
+    except requests.exceptions.RequestException as e:
+        print(f"Error checking order status: {e}")
+        return None
+
+def get_download_info(order_id):
+    """
+    Get download information for a completed order.
+
+    Args:
+        order_id: The ID of the completed order
+
+    Returns:
+        list: List of download items with fileId and name
+    """
+    order_url = f"{API_URL}/{order_id}"
+    headers = {
+        "Authorization": BEARER_TOKEN,
+        "User-Agent": "Mozilla/5.0" # It's needed for some reason
+    }
+
+    try:
+        response = requests.get(order_url, headers=headers)
+        response.raise_for_status()
+        order_data = response.json()
+        return order_data.get("downloads", [])
+    except requests.exceptions.RequestException as e:
+        print(f"Error retrieving download information: {e}")
+        return []
+
+def download_file(order_id, file_id, file_name):
+    """
+    Download a file from the download API.
+
+    Args:
+        order_id: The ID of the order
+        file_id: The ID of the file to download
+        file_name: The name to save the file as
+
+    Returns:
+        bool: True if download successful, False otherwise
+    """
+    download_url = f"{API_URL}/{order_id}/download/{file_id}"
+    headers = {
+        "Authorization": BEARER_TOKEN,
+        "User-Agent": "Mozilla/5.0" # It's needed for some reason
+    }
+
+    # Create download directory if it doesn't exist
+    os.makedirs(DOWNLOAD_FOLDER, exist_ok=True)
+    file_path = os.path.join(DOWNLOAD_FOLDER, file_name)
+
+    try:
+        with requests.get(download_url, headers=headers, stream=True) as response:
+            response.raise_for_status()
+            with open(file_path, 'wb') as f:
+                for chunk in response.iter_content(chunk_size=8192):
+                    f.write(chunk)
+        print(f"Downloaded {file_name} to {os.path.abspath(file_path)}")
+        return True
+    except requests.exceptions.RequestException as e:
+        print(f"Error downloading file: {e}")
+        return False
+
+def main():
+    # JSON body for the request
+    # To get the productId, you can use the API at https://download.api.vlaanderen.be/v2/products?searchTerm=adressen (example).
+    # To get the fileIds, you can use the API at https://download.api.vlaanderen.be/v2/products/{productId}.
+    # Full = 10142; 10142/GRAR.zip
+    # Addresses = 10145; 10145/GRAR_Adressen.zip
+    # StreetNames = 10143; 10143/GRAR_Straatnamen.zip
+    # AddressLinks = 10144; 10144/GRAR_Adreskoppelingen.zip
+
+    json_body = {
+        "productId": 10145,
+        "fileIds": ["10145/GRAR_Adressen.zip"]
+    }
+
+    print("Sending order request...")
+    result = create_order(json_body)
+
+    if not result:
+        print("Failed to create order")
+        return
+
+    print("Order created successfully!")
+    print(json.dumps(result, indent=2))
+
+    # Extract order ID from the response
+    try:
+        order_id = result["member"][0]["orderId"]
+        print(f"Order ID: {order_id}")
+    except (KeyError, IndexError):
+        print("Could not find order ID in the response")
+        return
+
+    print("Polling for order status...")
+    while True:
+        status = check_order_status(order_id)
+
+        if status is None:
+            print("Failed to retrieve status")
+            break
+
+        print(f"Current status: {status}")
+
+        if status == "Completed":
+            print("Order processing completed!")
+            break
+
+        if status == "Failed":
+            print("Order processing failed")
+            break
+
+        print(f"Waiting {POLLING_INTERVAL} seconds before checking again...")
+        time.sleep(POLLING_INTERVAL)
+
+    # If order completed, retrieve download info and download files
+    if status == "Completed":
+        print("Retrieving download information...")
+        downloads = get_download_info(order_id)
+
+        if not downloads:
+            print("No downloads available")
+            return
+
+        print(f"Found {len(downloads)} file(s) to download")
+
+        for download in downloads:
+            file_id = download.get("fileId")
+            file_name = download.get("name")
+
+            if file_id and file_name:
+                print(f"Downloading {file_name}...")
+                download_file(order_id, file_id, file_name)
+            else:
+                print(f"Skipping download with missing information: {download}")
+
+        print("All downloads completed!")
+
+if __name__ == "__main__":
+    main()
+```
+</details>
+
 
 ## WMS, WFS & OGC API features {#wmswfsogcgrar}
 
