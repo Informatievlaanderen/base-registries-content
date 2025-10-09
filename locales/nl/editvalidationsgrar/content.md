@@ -354,6 +354,7 @@
 |:---:|:---:|:---:|:---:|
 |Parameter geometriePolygoon ontbreekt   |Error 400  |JsonInvalid  |Json is not valid.  |
 |GeometriePolygoon leeg/niet correct meegegeven |Error 400 |GebouwPolygoonValidatie  |Ongeldig formaat geometriePolygoon. |
+|Overlappende schets gebouw |Ticketing error |GebouwGeschetstGeometrieAanwezig  |Er is een onderliggend gebouw met geschetste geometrie aanwezig |
 
 #### Plaats een gebouw in aanbouw
 
