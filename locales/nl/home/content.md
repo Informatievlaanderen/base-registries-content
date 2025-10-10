@@ -19,5 +19,5 @@ Het **Wegenregister** is het middenschalig referentiebestand van de wegen in Vla
 
 [1]:https://www.vlaanderen.be/digitaal-vlaanderen/onze-oplossingen/gebouwen-en-adressenregister
 [2]:https://www.vlaanderen.be/digitaal-vlaanderen/onze-oplossingen/wegenregister
-[3]:https://www.vlaanderen.be/digitaal-vlaanderen/status/status-overzicht?product=Gebouwen-%20en%20Adressenregister
-[4]:https://www.vlaanderen.be/digitaal-vlaanderen/status/status-overzicht?product=Wegenregister
+[3]:https://www.vlaanderen.be/digitaal-vlaanderen/status/products/5
+[4]:https://www.vlaanderen.be/digitaal-vlaanderen/status/products/14
