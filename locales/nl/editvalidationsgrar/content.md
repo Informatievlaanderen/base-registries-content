@@ -354,7 +354,8 @@
 |:---:|:---:|:---:|:---:|
 |Parameter geometriePolygoon ontbreekt   |Error 400  |JsonInvalid  |Json is not valid.  |
 |GeometriePolygoon leeg/niet correct meegegeven |Error 400 |GebouwPolygoonValidatie  |Ongeldig formaat geometriePolygoon. |
-|Overlappende schets gebouw |Ticketing error |GebouwGeschetstGeometrieAanwezig  |Er is een onderliggend gebouw met geschetste geometrie aanwezig |
+|Overlappende schets gebouw |Ticketing error |GebouwGeschetstGeometrieAanwezig  |Er is een onderliggend gebouw met geschetste geometrie aanwezig. |
+|Gebouw te klein |Error 400 | GebouwTeklein |De aangeleverde polygoon voor het gebouw heeft een oppervlakte van minder dan 1m². |
 
 #### Plaats een gebouw in aanbouw
 
@@ -431,6 +432,7 @@
 |GeometrieMethode = ingemetenGRB|Ticketing error|GebouwGeometrieMethodeIngemetenGRB| Deze actie is enkel toegestaan op gebouwen met geometrieMethode 'ingeschetst'.|
 |Geometrie gekoppelde gebouweenheden ligt niet in nieuwe geometrie |Ticketing error|GebouweenheidGeomtrieBuitenGebouwGeometrie| Het gebouw heeft onderliggende gebouweenheden met status 'gepland' of 'gerealiseerd' buiten de nieuw geschetste gebouwgeometrie. |
 |Verwijderd gebouwId meegegeven |Ticketing error |VerwijderdGebouw  |Verwijderd gebouw.  |
+|Gebouw te klein |Error 400 | GebouwTeklein |De aangeleverde polygoon voor het gebouw heeft een oppervlakte van minder dan 1m². |
 
 
 ## Gebouweenheden {#gebouweenheden}
