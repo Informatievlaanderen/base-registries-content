@@ -3,8 +3,8 @@ Hieronder vind je onze verschillende plannen met elk hun limiet.
 |Type | Requests / seconde |
 |-----|--------------------|
 |Anoniem | 25 |
-|Standaard| 20 |
-|Hoog | 50 |
+|Standaard| 40 |
+|Hoog | 70 |
 
 Alle anoniem gebruik wordt samen bekeken en gelimiteerd.
 Bij het aanvragen van een API key wordt type standaard als default toegekend.
