@@ -5,10 +5,11 @@ Een overzicht van de technische release notes kan [hier](https://basisregisters.
 
 
 ### Huidige release
-- [Release notes 27 mei 2025.pdf](https://github.com/user-attachments/files/20478257/Release.notes.27.mei.2025.pdf)
+- [Release notes 4 november 2025.pdf](https://github.com/user-attachments/files/23358149/Release.notes.04.november.2025.pdf)
 
 
 ### Archief
+- [Release notes 27 mei 2025.pdf](https://github.com/user-attachments/files/20478257/Release.notes.27.mei.2025.pdf)
 - [Release notes 16 december 2024.pdf](https://github.com/user-attachments/files/20383316/Release.notes.16.december.2024.pdf)
 - [Release notes 12 november 2024.pdf](https://github.com/user-attachments/files/20383310/Release.notes.12.november.2024.pdf)
 - [Release notes 28 oktober 2024.pdf](https://github.com/user-attachments/files/17553598/Release.notes.28.oktober.2024.pdf)
