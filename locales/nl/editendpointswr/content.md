@@ -17,4 +17,5 @@ Hieronder kan per register een lijst gevonden worden van welke beheeracties er a
 
  ## Validaties edit endpoint {#validatieseditendpoints}
  
-Zie https://basisregisters.staging-vlaanderen.be/documentatie/editendpointswr/validaties.
+Zie https://vlaamseoverheid.atlassian.net/wiki/spaces/AGB/pages/7675641879/Gebruik+van+de+edit-API+s+WR.
+
