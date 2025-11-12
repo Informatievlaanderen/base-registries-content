@@ -167,12 +167,12 @@
       },
       {
         "title": "Flow statussen gebouwen- en adressenregister",
-        "url": "/documentatie/statusflowgrar",
+        "url": "https://vlaamseoverheid.atlassian.net/wiki/spaces/AGB/pages/7668138177/Gebruik+van+de+edit-API+s+GRAR",
         "hide": false
       },
       {
         "title": "Validaties edit API's van het gebouwen- en adressenregister",
-        "url": "/documentatie/editendpointsgrar/validaties",
+        "url": "https://vlaamseoverheid.atlassian.net/wiki/spaces/AGB/pages/7668138177/Gebruik+van+de+edit-API+s+GRAR",
         "hide": false
       },
       {
@@ -182,7 +182,7 @@
       },
       {
         "title": "Validaties edit API's van het wegenregister",
-        "url": "/documentatie/editendpointswr/validaties",
+        "url": "https://vlaamseoverheid.atlassian.net/wiki/spaces/AGB/pages/7675641879/Gebruik+van+de+edit-API+s+WR",
         "hide": false
       },
       {
