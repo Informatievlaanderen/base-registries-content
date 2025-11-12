@@ -171,11 +171,11 @@ De geometrie, positieGeometrieMethode, positieSpecificatie, adresStatus en de ge
 
 ## Validaties edit endpoint {#validatieseditendpoints}
  
-Zie https://basisregisters.staging-vlaanderen.be/documentatie/editendpointsgrar/validaties.
+Zie https://vlaamseoverheid.atlassian.net/wiki/spaces/AGB/pages/7668138177/Gebruik+van+de+edit-API+s+GRAR.
  
 ## Flow statussen   {#flowstatussen}
  
-Zie https://basisregisters.staging-vlaanderen.be/documentatie/statusflowgrar.
+Zie https://vlaamseoverheid.atlassian.net/wiki/spaces/AGB/pages/7668138177/Gebruik+van+de+edit-API+s+GRAR.
  
  
  ## Ticketing service {#ticketingservice}
