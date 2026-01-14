@@ -5,8 +5,7 @@ Een overzicht van de technische release notes kan [hier](https://basisregisters.
 
 
 ### Huidige release
-
-[Release notes 12 januari 2026.pdf](https://github.com/user-attachments/files/24616703/Release.notes.12.januari.2026.pdf)
+- [Release notes 12 januari 2026.pdf](https://github.com/user-attachments/files/24616703/Release.notes.12.januari.2026.pdf)
 
 
 ### Archief
