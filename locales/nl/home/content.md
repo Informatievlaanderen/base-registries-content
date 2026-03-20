@@ -6,10 +6,17 @@ Het **Gebouwen- en Adressenregister** behoort tot het stelsel van de basisregist
 
 Het **Wegenregister** is het middenschalig referentiebestand van de wegen in Vlaanderen. Het moet alle (openbaar toegankelijke) wegen van Vlaanderen bevatten, met bijbehorende attribuutgegevens.
 
-### Nuttige informatie
+### Belangrijke informatie
+De website basisregisters.vlaanderen zal niet langer een toegang vormen voor informatie over het Gebouwen- en Adressenregister, en het Wegenregister. Actuele informatie is te vinden op de productpagina's en in de gebruikersdocumentatie in de Geo- en Open Data Diensten - Kennisdatabank.
+
+### Productpagina
 
 * [Productpagina Gebouwen- en Adressenregister][1]
 * [Productpagina Wegenregister][2]
+
+### [Geo- en Open Data Diensten - Kennisdatabank][5]
+Op deze pagina kan je onder andere terecht voor informatie over release notes, API keys en het beheer van data.
+
 
 ### Statuspagina
     
@@ -21,3 +28,4 @@ Het **Wegenregister** is het middenschalig referentiebestand van de wegen in Vla
 [2]:https://www.vlaanderen.be/digitaal-vlaanderen/onze-oplossingen/wegenregister
 [3]:https://www.vlaanderen.be/digitaal-vlaanderen/status/products/5
 [4]:https://www.vlaanderen.be/digitaal-vlaanderen/status/products/14
+[5]:https://vlaamseoverheid.atlassian.net/wiki/x/IQBj6QE
