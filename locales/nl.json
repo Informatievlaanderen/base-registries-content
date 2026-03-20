@@ -204,12 +204,12 @@
       {
         "title": "Business release notes van het gebouwen- en adressenregister",
         "url": "/release-notes/functioneelgrar",
-        "hide": false
+        "hide": true
       },
       {
         "title": "Business release notes van het wegenregister",
         "url": "/release-notes/functioneelwr",
-        "hide": false
+        "hide": true
       }
     ]
   },
