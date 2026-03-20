@@ -38,10 +38,6 @@
       "text": "API keys",
       "url": "/apikey"
     },
-   "releaseNotes": {
-    "text": "Release notes",
-    "url": "/release-notes"
-    },
    "error": {
      "text": "Foutmeldingen",
      "url": "/foutmeldingen"
