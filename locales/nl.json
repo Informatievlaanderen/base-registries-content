@@ -98,13 +98,13 @@
         "title": "Werking basisregisters endpoints",
         "subtitle": "Hoe werken de API's functioneel? Leer het hier.",
         "url": "/documentatie",
-        "hide": false
+        "hide": true
       }, 
       {
         "title": "Implementatiemodel",
         "subtitle": "De specificatie voor gegevensuitwisseling.",
         "url": "/implementatiemodel",
-        "hide": false
+        "hide": true
       },
        {
         "title": "API keys",
@@ -146,13 +146,13 @@
         "title": "API documentatie",
         "subtitle": "Documentatie van de basisregisters endpoints.",
         "url": "https://docs.basisregisters.staging-vlaanderen.be/docs/api-documentation.html#tag/api-documentation.html",
-        "hide": false
+        "hide": true
       },
      {
         "title": "Geo- en Open Data Diensten - kennisbank",
         "subtitle": "Confluencepagina met informatie over geo- en open data diensten",
         "url": "https://vlaamseoverheid.atlassian.net/wiki/spaces/AGB/overview?homepageId=1198687351",
-        "hide": false
+        "hide": true
       }
     ]
   },
@@ -163,12 +163,12 @@
       {
         "title": "Gebruik van de edit API's van het gebouwen- en adressenregister",
         "url": "/documentatie/editendpointsgrar",
-        "hide": false
+        "hide": true
       },
       {
         "title": "Flow statussen gebouwen- en adressenregister",
         "url": "https://vlaamseoverheid.atlassian.net/wiki/spaces/AGB/pages/7668138177/Gebruik+van+de+edit-API+s+GRAR",
-        "hide": false
+        "hide": true
       },
       {
         "title": "Validaties edit API's van het gebouwen- en adressenregister",
@@ -178,22 +178,22 @@
        {
         "title": "Gebruik van de edit API's van het wegenregister",
         "url": "/documentatie/editendpointswr",
-        "hide": false
+        "hide": true
       },
       {
         "title": "Validaties edit API's van het wegenregister",
         "url": "https://vlaamseoverheid.atlassian.net/wiki/spaces/AGB/pages/7675641879/Gebruik+van+de+edit-API+s+WR",
-        "hide": false
+        "hide": true
       },
       {
         "title": "Mogelijke foutmeldingen van de endpoints van de basisregisters",
         "url": "/foutmeldingen",
-        "hide": false
+        "hide": true
       },
       {
         "title": "Technische documentatie voor de meldingen van het gebouwen- en adressenregister",
         "url": "/documentatie/meldingenbasisregisters",
-        "hide": false
+        "hide": true
       }
     ]
   },
