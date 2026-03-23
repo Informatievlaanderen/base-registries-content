@@ -146,13 +146,13 @@
         "title": "API documentatie",
         "subtitle": "Documentatie van de basisregisters endpoints.",
         "url": "https://docs.basisregisters.staging-vlaanderen.be/docs/api-documentation.html#tag/api-documentation.html",
-        "hide": false
+        "hide": true
       },
      {
         "title": "Geo- en Open Data Diensten - kennisbank",
         "subtitle": "Confluencepagina met informatie over geo- en open data diensten",
         "url": "https://vlaamseoverheid.atlassian.net/wiki/spaces/AGB/overview?homepageId=1198687351",
-        "hide": false
+        "hide": true
       }
     ]
   },
@@ -263,15 +263,18 @@
     "doormatItems": [
       {
         "title": "Implementatiemodel adressenregister",
-        "url": "/implementatiemodel/adressenregister"
+        "url": "/implementatiemodel/adressenregister",
+        "hide": true
       },
       {
         "title": "Implementatiemodel gebouwenregister",
         "url": "/implementatiemodel/gebouwenregister"
+        "hide": true
       },
       {
         "title": "Implementatiemodel wegenregister",
         "url": "/implementatiemodel/wegenregister"
+        "hide": true
       }
     ],
     "sidebar": {
