@@ -173,7 +173,7 @@
       {
         "title": "Validaties edit API's van het gebouwen- en adressenregister",
         "url": "https://vlaamseoverheid.atlassian.net/wiki/spaces/AGB/pages/7668138177/Gebruik+van+de+edit-API+s+GRAR",
-        "hide": false
+        "hide": true
       },
        {
         "title": "Gebruik van de edit API's van het wegenregister",
@@ -457,13 +457,13 @@
         "title": "Producten van het gebouwen- en adressenregister",
         "text": "Een overzicht van de verschillende producten van het gebouwen- en adressenregister",
         "url": "/producten/grar",
-        "hide": false
+        "hide": true
       },
       {
         "title": "Producten van het wegenregister",
         "text": "Een overzicht van de verschillende producten van het wegenregister",
         "url": "/producten/wr",
-        "hide": false
+        "hide": true
       }
     ]
   },
