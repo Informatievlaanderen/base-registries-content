@@ -146,7 +146,7 @@
         "title": "API documentatie",
         "subtitle": "Documentatie van de basisregisters endpoints.",
         "url": "https://docs.basisregisters.staging-vlaanderen.be/docs/api-documentation.html#tag/api-documentation.html",
-        "hide": true
+        "hide": false
       },
      {
         "title": "Geo- en Open Data Diensten - kennisbank",
