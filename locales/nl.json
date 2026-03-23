@@ -268,12 +268,12 @@
       },
       {
         "title": "Implementatiemodel gebouwenregister",
-        "url": "/implementatiemodel/gebouwenregister"
+        "url": "/implementatiemodel/gebouwenregister",
         "hide": true
       },
       {
         "title": "Implementatiemodel wegenregister",
-        "url": "/implementatiemodel/wegenregister"
+        "url": "/implementatiemodel/wegenregister",
         "hide": true
       }
     ],
