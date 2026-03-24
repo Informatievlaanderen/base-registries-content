@@ -18,14 +18,7 @@ De website basisregisters.vlaanderen zal niet langer een toegang vormen voor inf
 Op deze pagina kan je onder andere terecht voor informatie over release notes, API keys en het beheer van data.
 
 
-### Statuspagina
-    
-* [Statuspagina Gebouwen- en Adressenregister][3]
-* [Statuspagina Wegenregister][4]
-
 
 [1]:https://www.vlaanderen.be/digitaal-vlaanderen/onze-oplossingen/gebouwen-en-adressenregister
 [2]:https://www.vlaanderen.be/digitaal-vlaanderen/onze-oplossingen/wegenregister
-[3]:https://www.vlaanderen.be/digitaal-vlaanderen/status/products/5
-[4]:https://www.vlaanderen.be/digitaal-vlaanderen/status/products/14
 [5]:https://vlaamseoverheid.atlassian.net/wiki/x/IQBj6QE
