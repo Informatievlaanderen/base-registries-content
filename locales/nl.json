@@ -92,7 +92,7 @@
         "title": "Producten basisregisters",
         "subtitle": "Welke producten zijn er? Lees het hier.",
         "url": "/producten",
-        "hide": false
+        "hide": true
       },     
       {
         "title": "Werking basisregisters endpoints",
@@ -122,7 +122,7 @@
         "title": "Versies",
         "subtitle": "Een overzicht van de huidige versies.",
         "url": "/versies",
-        "hide": false
+        "hide": true
       },
       {
         "title": "Technische integraties",
@@ -134,7 +134,7 @@
         "title": "Veelgestelde vragen",
         "subtitle": "Een overzicht van de meest voorkomende vragen.",
         "url": "https://www.vlaanderen.be/digitaal-vlaanderen/onze-diensten-en-platformen/gebouwen-en-adressenregister/faq",
-        "hide": false
+        "hide": true
       },
       {
         "title": "Verklarende woordenlijst",
