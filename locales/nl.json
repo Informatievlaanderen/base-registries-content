@@ -110,7 +110,7 @@
         "title": "API keys",
         "subtitle": "Hoe API key gebruiken & aanvragen? Leer het hier.",
         "url": "/apikey",
-        "hide": false
+        "hide": true
       },
       {
         "title": "Release notes",
@@ -140,7 +140,7 @@
         "title": "Verklarende woordenlijst",
         "subtitle": "Een begrippenlijst van de basisregisters.",
         "url": "/verklarende-woordenlijst",
-        "hide": false
+        "hide": true
       },
       {
         "title": "API documentatie",
