@@ -92,37 +92,37 @@
         "title": "Producten basisregisters",
         "subtitle": "Welke producten zijn er? Lees het hier.",
         "url": "/producten",
-        "hide": false
+        "hide": true
       },
       {
         "title": "Werking basisregisters endpoints",
         "subtitle": "Hoe werken de API's functioneel? Leer het hier.",
         "url": "/documentatie",
-        "hide": false
+        "hide": true
       },
       {
         "title": "Implementatiemodel",
         "subtitle": "De specificatie voor gegevensuitwisseling.",
         "url": "/implementatiemodel",
-        "hide": false
+        "hide": true
       },
       {
         "title": "API keys",
         "subtitle": "Hoe API key gebruiken & aanvragen? Leer het hier.",
         "url": "/apikey",
-        "hide": false
+        "hide": true
       },
       {
         "title": "Release notes",
         "subtitle": "Release notes van de huidige en vorige releases.",
         "url": "/release-notes",
-        "hide": false
+        "hide": true
       },
       {
         "title": "Versies",
         "subtitle": "Een overzicht van de huidige versies.",
         "url": "/versies",
-        "hide": false
+        "hide": true
       },
       {
         "title": "Technische integraties",
@@ -134,25 +134,25 @@
         "title": "Veelgestelde vragen",
         "subtitle": "Een overzicht van de meest voorkomende vragen.",
         "url": "https://www.vlaanderen.be/digitaal-vlaanderen/onze-diensten-en-platformen/gebouwen-en-adressenregister/faq",
-        "hide": false
+        "hide": true
       },
       {
         "title": "Verklarende woordenlijst",
         "subtitle": "Een begrippenlijst van de basisregisters.",
         "url": "/verklarende-woordenlijst",
-        "hide": false
+        "hide": true
       },
       {
         "title": "API documentatie",
         "subtitle": "Documentatie van de basisregisters endpoints.",
         "url": "https://docs.basisregisters.vlaanderen.be/docs/api-documentation.html#tag/api-documentation.html",
-        "hide": false
+        "hide": true
       },
       {
         "title": "Geo- en Open Data Diensten - kennisbank",
         "subtitle": "Confluencepagina met informatie over geo- en open data diensten",
         "url": "https://vlaamseoverheid.atlassian.net/wiki/spaces/AGB/overview?homepageId=1198687351",
-        "hide": false
+        "hide": true
       }
     ]
   },
