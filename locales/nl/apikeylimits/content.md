@@ -2,6 +2,7 @@ Hieronder vind je onze verschillende plannen met elk hun limiet.
 
 |Type | Requests / seconde |
 |-----|--------------------|
+|Laag| 10 |
 |Anoniem | 25 |
 |Standaard| 40 |
 |Hoog | 70 |
