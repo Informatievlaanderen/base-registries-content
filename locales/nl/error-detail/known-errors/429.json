@@ -1,7 +1,0 @@
-{
-    "type": "urn:be.vlaanderen.basisregisters.api:throttled",
-    "title": "Er heeft zich een fout voorgedaan!",
-    "detail": "U voert teveel requests uit in een korte tijdspanne. Probeer later opnieuw.",
-    "status": "429",
-    "instance": "https://api.basisregisters.vlaanderen.be/v2/foutmeldingen/<uniekecode>"
-}

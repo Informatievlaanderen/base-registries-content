@@ -1,7 +1,0 @@
-{
-    "type": "urn:be.vlaanderen.basisregisters.api:timeout",
-    "title": "Er heeft zich een fout voorgedaan!",
-    "detail": "Uw request kon niet tijdig worden uitgevoerd. Probeer later opnieuw, of indien mogelijk probeer de limit parameter te verlagen.",
-    "status": "504",
-    "instance": "https://api.basisregisters.vlaanderen.be/v2/foutmeldingen/<uniekecode>"
-}

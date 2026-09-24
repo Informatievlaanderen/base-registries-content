@@ -1,1 +1,0 @@
-# Verklarende woordenlijst

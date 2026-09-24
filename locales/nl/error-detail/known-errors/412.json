@@ -1,7 +1,0 @@
-{
-    "type": "urn:be.vlaanderen.basisregisters.api:precondition-failed",
-    "title": "Er heeft zich een fout voorgedaan.",
-    "detail": "Als de If-Match header niet overeenkomt met de laatste ETag.",
-    "status": "412",
-    "instance": "https://api.basisregisters.vlaanderen.be/v2/foutmeldingen/<uniekecode>"
-}

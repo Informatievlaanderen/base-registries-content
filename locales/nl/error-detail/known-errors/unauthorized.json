@@ -1,7 +1,0 @@
-{
-    "type": "urn:be.vlaanderen.basisregisters.api:forbidden",
-    "title": "Er heeft zich een fout voorgedaan!",
-    "detail": "U beschikt niet over de correcte rechten om deze actie uit te voeren.",
-    "status": "403",
-    "instance": "https://api.basisregisters.vlaanderen.be/v2/foutmeldingen/unauthorized"
-}

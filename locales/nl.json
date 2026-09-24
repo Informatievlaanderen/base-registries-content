@@ -6,46 +6,10 @@
       "text": "Startpagina basisregisters",
       "url": "/"
     },
-    "documentation": {
-      "text": "Werking basisregisters endpoints",
-      "url": "/documentatie"
-    },
-    "editendpointswr": {
-      "text": "Gebruik van de edit endpoints van het wegenregister",
-      "url": "/documentatie/editendpointswr"
-    },
-    "editendpointsgrar": {
-      "text": "Gebruik van de edit endpoints van het gebouwen- en adressenregister",
-      "url": "/documentatie/editendpointsgrar"
-    },
-    "implementationmodel": {
-      "text": "Implementatiemodel",
-      "url": "/implementatiemodel"
-    },
      "integrationDocumentation": {
       "text": "Technische integraties met de basisregisters",
       "url": "/integratie-documentatie"
-    },
-     "error-detail": {
-      "text": "Mogelijke foutmeldingen in de endpoints van de basisregisters",
-      "url": "/foutmeldingen"
-    },
-    "products": {
-      "text": "Producten basisregisters",
-      "url": "/producten"
-    },
-    "apikey": {
-      "text": "API keys",
-      "url": "/apikey"
-    },
-    "releaseNotes": {
-      "text": "Release notes",
-      "url": "/release-notes"
-    },
-   "error": {
-     "text": "Foutmeldingen",
-     "url": "/foutmeldingen"
-   }
+    }
   },
   "header": {
     "company": {
@@ -89,36 +53,6 @@
     "Prefix": "Basisregisters Vlaanderen",
       "spotlightItems": [
       {
-        "title": "Producten basisregisters",
-        "subtitle": "Welke producten zijn er? Lees het hier.",
-        "url": "/producten",
-        "hide": true
-      },     
-      {
-        "title": "Werking basisregisters endpoints",
-        "subtitle": "Hoe werken de API's functioneel? Leer het hier.",
-        "url": "/documentatie",
-        "hide": true
-      }, 
-      {
-        "title": "Implementatiemodel",
-        "subtitle": "De specificatie voor gegevensuitwisseling.",
-        "url": "/implementatiemodel",
-        "hide": true
-      },
-       {
-        "title": "API keys",
-        "subtitle": "Hoe API key gebruiken & aanvragen? Leer het hier.",
-        "url": "/apikey",
-        "hide": true
-      },
-      {
-        "title": "Release notes",
-        "subtitle": "Release notes van de huidige en vorige releases.",
-        "url": "/release-notes",
-        "hide": true
-      },
-      {
         "title": "Versies",
         "subtitle": "Een overzicht van de huidige versies.",
         "url": "/versies",
@@ -137,12 +71,6 @@
         "hide": true
       },
       {
-        "title": "Verklarende woordenlijst",
-        "subtitle": "Een begrippenlijst van de basisregisters.",
-        "url": "/verklarende-woordenlijst",
-        "hide": true
-      },
-      {
         "title": "API documentatie",
         "subtitle": "Documentatie van de basisregisters endpoints.",
         "url": "https://docs.basisregisters.staging-vlaanderen.be/docs/api-documentation.html#tag/api-documentation.html",
@@ -152,63 +80,6 @@
         "title": "Geo- en Open Data Diensten - kennisbank",
         "subtitle": "Confluencepagina met informatie over geo- en open data diensten",
         "url": "https://vlaamseoverheid.atlassian.net/wiki/spaces/AGB/overview?homepageId=1198687351",
-        "hide": true
-      }
-    ]
-  },
-  "documentation": {
-    "title": "Werking basisregisters endpoints",
-    "Prefix": "Basisregisters Vlaanderen",
-    "doormatItems": [
-      {
-        "title": "Gebruik van de edit API's van het gebouwen- en adressenregister",
-        "url": "/documentatie/editendpointsgrar",
-        "hide": true
-      },
-      {
-        "title": "Flow statussen gebouwen- en adressenregister",
-        "url": "https://vlaamseoverheid.atlassian.net/wiki/spaces/AGB/pages/7668138177/Gebruik+van+de+edit-API+s+GRAR",
-        "hide": true
-      },
-      {
-        "title": "Validaties edit API's van het gebouwen- en adressenregister",
-        "url": "https://vlaamseoverheid.atlassian.net/wiki/spaces/AGB/pages/7668138177/Gebruik+van+de+edit-API+s+GRAR",
-        "hide": true
-      },
-       {
-        "title": "Gebruik van de edit API's van het wegenregister",
-        "url": "/documentatie/editendpointswr",
-        "hide": true
-      },
-      {
-        "title": "Validaties edit API's van het wegenregister",
-        "url": "https://vlaamseoverheid.atlassian.net/wiki/spaces/AGB/pages/7675641879/Gebruik+van+de+edit-API+s+WR",
-        "hide": true
-      },
-      {
-        "title": "Mogelijke foutmeldingen van de endpoints van de basisregisters",
-        "url": "/foutmeldingen",
-        "hide": true
-      },
-      {
-        "title": "Technische documentatie voor de meldingen van het gebouwen- en adressenregister",
-        "url": "/documentatie/meldingenbasisregisters",
-        "hide": true
-      }
-    ]
-  },
-  "release-notes": {
-    "title": "Release notes van de basisregisters",
-    "Prefix": "Basisregisters Vlaanderen",
-    "doormatItems": [
-      {
-        "title": "Business release notes van het gebouwen- en adressenregister",
-        "url": "/release-notes/functioneelgrar",
-        "hide": true
-      },
-      {
-        "title": "Business release notes van het wegenregister",
-        "url": "/release-notes/functioneelwr",
         "hide": true
       }
     ]
@@ -225,62 +96,9 @@
   "release-notes/technisch-wr": {
     "title": "Technische release notes van het wegenregister"
   },
-  "editendpointsgrar": {
-    "title": "Gebruik van de edit API's van het gebouwen- en adressenregister",
-    "Prefix": "Basisregisters Vlaanderen"
-  },
-  "editvalidationsgrar": {
-    "title": "Validaties",
-    "Prefix": "Basisregisters Vlaanderen"
-  },
-  "editvalidations": {
-    "title": "Validaties",
-    "Prefix": "Basisregisters Vlaanderen"
-  },
-  "statusflowgrar": {
-    "title": "Status flow API's van het gebouwen- en adressenregister",
-    "Prefix": "Basisregisters Vlaanderen"
-  },
-    "notificationsbasisregisters": {
-    "title": "Technische documentatie voor de meldingen van het gebouwen- en adressenregister",
-    "Prefix": "Basisregisters Vlaanderen"
-  },
-    "glossary": {
-    "title": "Verklarende woordenlijst",
-    "Prefix": "Basisregisters Vlaanderen"
-  },
     "faq": {
     "title": "Veelgestelde vragen",
     "Prefix": "Basisregisters Vlaanderen"
-  },
-  "Apikey": {
-    "title": "API key",
-    "Prefix": "Basisregisters Vlaanderen"
-  },
-  "implementationmodel": {
-    "title": "Implementatiemodel",
-    "Prefix": "Basisregisters Vlaanderen",
-    "doormatItems": [
-      {
-        "title": "Implementatiemodel adressenregister",
-        "url": "/implementatiemodel/adressenregister",
-        "hide": true
-      },
-      {
-        "title": "Implementatiemodel gebouwenregister",
-        "url": "/implementatiemodel/gebouwenregister",
-        "hide": true
-      },
-      {
-        "title": "Implementatiemodel wegenregister",
-        "url": "/implementatiemodel/wegenregister",
-        "hide": true
-      }
-    ],
-    "sidebar": {
-      "title": "Op deze pagina",
-      "urls": []
-    }
   },
   "implementationmodelRoadRegistry": {
     "title": "Wegenregister",
@@ -448,24 +266,6 @@
       "urls": [
       ]
     }
-  },
-    "products": {
-    "title": "Producten basisregisters",
-    "Prefix": "Basisregisters Vlaanderen",
-    "doormatItems": [
-      {
-        "title": "Producten van het gebouwen- en adressenregister",
-        "text": "Een overzicht van de verschillende producten van het gebouwen- en adressenregister",
-        "url": "/producten/grar",
-        "hide": true
-      },
-      {
-        "title": "Producten van het wegenregister",
-        "text": "Een overzicht van de verschillende producten van het wegenregister",
-        "url": "/producten/wr",
-        "hide": true
-      }
-    ]
   },
   "registries": {
     "address": {
@@ -672,71 +472,6 @@
         "backOfficeProjections": false,
         "snapshot": false
       }
-    }
-  },
-"error-detail": {
-    "title": "Mogelijke foutmeldingen in de endpoints van de basisregisters",
-    "Prefix": "Basisregisters Vlaanderen",
-    "doormatItems": [
-      {
-        "title": "Error 304",
-        "url": "/foutmeldingen/304",
-        "hide": false
-      },
-      {
-        "title": "Error 401",
-        "url": "/foutmeldingen/401",
-        "hide": false
-      },
-      {
-        "title": "Error 403: Onbevoegd",
-        "url": "/foutmeldingen/unauthorized",
-        "hide": false
-      },
-        {
-        "title": "Error 403: Ongeldige API key",
-        "url": "/foutmeldingen/invalid_api_key",
-        "hide": false
-      },
-      {
-        "title": "Error 404",
-        "url": "/foutmeldingen/404",
-        "hide": false
-      },
-      {
-        "title": "Error 406",
-        "url": "/foutmeldingen/406",
-        "hide": false
-      },
-      {
-        "title": "Error 410",
-        "url": "/foutmeldingen/410",
-        "hide": false
-      },
-      {
-        "title": "Error 412",
-        "url": "/foutmeldingen/412",
-        "hide": false
-      },
-      {
-        "title": "Error 429",
-        "url": "/foutmeldingen/429",
-        "hide": false
-      },
-       {
-        "title": "Error 500",
-        "url": "/foutmeldingen/500",
-        "hide": false
-      },
-      {
-        "title": "Error 504",
-        "url": "/foutmeldingen/504",
-        "hide": false
-      }
-    ], 
-    "sidebar": {
-      "title": "Op deze pagina",
-      "urls": []
     }
   },
   "versions": {

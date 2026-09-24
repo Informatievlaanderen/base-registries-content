@@ -1,7 +1,0 @@
-{
-    "type": "urn:be.vlaanderen.basisregisters.api:unauthorized",
-    "title": "Er heeft zich een fout voorgedaan.",
-    "detail": "API key verplicht.",
-    "status": "401",
-    "instance": "https://api.basisregisters.vlaanderen.be/v2/foutmeldingen/<uniekecode>"
-}

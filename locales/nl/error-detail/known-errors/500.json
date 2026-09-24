@@ -1,7 +1,0 @@
-{
-    "type": "urn:be.vlaanderen.basisregisters.api:internal-server-error",
-    "title": "Er heeft zich een fout voorgedaan!",
-    "detail": "<meer informatie over de interne fout>",
-    "status": "500",
-    "instance": "https://api.basisregisters.vlaanderen.be/v2/foutmeldingen/<uniekecode>"
-}

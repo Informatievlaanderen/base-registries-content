@@ -1,7 +1,0 @@
-{
-    "type": "urn:be.vlaanderen.basisregisters.api:<register>:not-found",
-    "title": "Er heeft zich een fout voorgedaan.",
-    "detail": "Onbestaand object.",
-    "status": "404",
-    "instance": "https://api.basisregisters.vlaanderen.be/v2/foutmeldingen/<uniekecode>"
-}
